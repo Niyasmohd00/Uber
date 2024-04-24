@@ -1,0 +1,856 @@
+.header{
+    width: 100%;
+    background-color: black;
+    height: 66px;
+}
+.content-1{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+}
+.content-2{
+    width: 100%;
+    height: 1970px;
+    background-color: white;
+}
+.content-3{
+    height: 400px;
+    width: 100%;
+    background-color: #F6F6F6;
+    position: relative;
+}
+.content-4{
+    width: 100%;
+    height: 960px;
+    background-color: black;
+}
+body{
+    margin: 0;
+}
+.uber{
+    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 55px;
+    margin-left: 60px;
+    color: white;
+    float: left;
+    background-color: black;
+    border: 0;
+    cursor: pointer;
+    
+}
+.ride{
+    float: left;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 12px;
+    margin-left: 20px;
+    color: white;
+    font-weight: 500;
+    float: left;
+    background-color: black;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    padding: 10px 12px;
+
+}
+.drive{
+    float: left;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 12px;
+    margin-left: 7px;
+    color: white;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    padding: 10px 12px;
+
+}
+.ride:hover{
+    background-color: #3f3a3a;
+}
+.drive:hover{
+    background-color: #3f3a3a;
+}
+.about{
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 12px;
+    margin-left: 7px;
+    color: white;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    padding: 10px 12px;
+    width: 87px;
+}
+select option{
+    background-color: white;
+    color: black;
+}
+.signup{
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 12px;
+    color: black;
+    font-weight: 500;
+    background-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    padding: 10px 12px;
+    float: right ;
+    margin-right: 70px;
+}
+.signup:hover{
+    background-color: rgb(209, 208, 202);
+}
+.login{
+    float: right;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 12px;
+    margin-right: 12px;
+    color: white;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    padding: 10px 12px;
+
+}
+.login:hover{
+    background-color: #3f3a3a;
+}
+.about:hover{
+    background-color: #3f3a3a;
+}
+.first{
+    width: 50%;
+    height: 800px;
+    background-color: black;
+    float: left;
+}
+
+.second{
+    float: right;
+    width: 44%;
+    height: 630px;
+    margin-top: 100px;
+    margin-right: 70px;
+    border-radius: 10px;
+}
+.second img{
+    height: 100%;
+    width: 100%;
+}
+.paragraph{
+    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    padding: 10px 60px;
+    color: white;
+    font-weight: 700;
+    float: left;
+    margin-top: 210px;
+}
+.paragraph2{
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 16px;
+    padding: 1px 60px;
+    font-weight: 400;
+
+}
+.mainloc{
+    margin-left: 60px;
+    margin-top: 13px;
+    cursor: text;
+    height: 48px;
+    width: 396px;
+    background-color: white;
+    border-radius: 10px;
+    float: left;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    box-sizing: border-box;
+    position: relative;
+}
+.round{
+    height: 100%;
+    width: 25px;
+    margin-left: 10px;
+    cursor: text;
+    background-color: white;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.prices{
+    margin-left: 60px;
+    margin-top: 22px;
+    cursor: text;
+    height: 48px;
+    width: 127px;
+    background-color: white;
+    border-radius: 10px;
+    float: left;
+}
+.button2{
+    color: black;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 520;
+    padding: 14px 20px;
+}
+.button2:hover{
+    background-color: rgb(209, 208, 202);
+}
+.enterloc{
+    height: 100%;
+    width: 200px;
+    margin-left: 4px;
+    float: left;
+    color: #3f3a3a;
+    background-color: aqua;
+}
+.box{
+    height: 100%;
+    width: 100%;
+}
+label{
+    height: 100%;
+    width: 100%;
+}
+.mainloc input[type="text"] {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box; 
+    padding: 8px 40px;
+    border: 0;
+    font-size: 16px;
+    border-radius: 10px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.arrow{
+    height: 100%;
+    width: 25px;
+    margin-right: 10px;
+    cursor: text;
+    background-color: white;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.squire{
+    height: 80%;
+    width: 25px;
+    margin-left: 13px;
+    margin-top: 6px;
+    cursor: text;
+    background-color: white;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.content-21{
+    height: 550px;
+    width: 43%;
+    margin-top: 65px;
+    margin-left: 65px;
+    background-color: white;
+    border-radius: 10px;
+    float: left;
+
+}
+.content-22{
+    height: 550px;
+    width: 43%;
+    margin-top: 65px;
+    margin-left: 40px;
+    background-color: white;
+    border-radius: 10px;
+    float: left;
+
+}
+.content-31{
+    width: 43%;
+    height: 200px;
+    background-color: white;
+    float: left;
+    margin-left: 65px;
+    margin-top: 135px;
+    cursor: pointer;
+}
+
+.content-32{
+    height: 200px;
+    width: 43%;
+    margin-top: 135px;
+    margin-left: 40px;
+    background-color: white;
+    float: left;
+    cursor: pointer;
+
+}
+.content-21 img{
+    height: 100%;
+    width: 100%;
+}
+.content-22 img{
+    height: 100%;
+    width: 100%;
+}
+.content-31img{
+    height: 150px;
+    width: 150px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.content-31img img{
+    height: 100%;
+    width: 100%;
+}
+.content-32img{
+    height: 150px;
+    width: 150px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.content-32img img{
+    height: 100%;
+    width: 100%;
+}
+.paragraph3{
+    width: 100%;
+    height: 240px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 55px;
+    color: black;
+    font-weight: 700;
+    float: left;
+    margin-top: 85px;
+    margin-left: 100px;
+    position: relative;
+}
+.content-23{
+    height: 550px;
+    width: 42%;
+    margin-top: 65px;
+    margin-left: 40px;
+    background-color: white;
+    float: left;
+
+}
+.paragraph4{
+    width: 78%;
+    height: 60pxpx;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    float: left;
+    margin-left: 100px;
+    position: relative;
+    top: 0;
+    
+}
+.getstarted{
+    width: 100%;
+    height: 45px;
+    margin-top: 35px;
+    background-color: white;
+    float: left;
+    margin-left: 100px;
+}
+.getstartedbutton{
+    height: 100%;
+    width: 105px;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0;
+    padding: 13px 13px;
+    float: left;
+    
+}
+.getstartedbutton :hover{
+    background-color: rgb(57, 53, 53);
+}
+.custom-textbox {
+    position: relative;
+    width: 270px;
+    height: 100%;
+    float: left;
+    margin-left: 20px;
+    color: black;
+}
+
+.custom-textbox input[type="text"] {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    padding: 24px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.custom-textbox .underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 87%;
+    height: 2px;
+    background-color: rgb(128, 122, 122);
+    transition: background-color 0.3s ease;
+}
+
+.custom-textbox:hover .underline {
+    background-color: black;
+}
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    cursor: pointer;
+}
+.theuber{
+    height: 150px;
+    width: 90%;
+    background-color: white;
+    margin-top: 120px;
+}
+.paragraph5{
+    height: 30px;
+    width: 80%;
+    background-color: black;
+    color: currentColor;
+    letter-spacing: 0;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+}
+.theuber h1{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 55px;
+    color: black;
+    font-weight: 700;
+    position: relative;
+    bottom: 100px;
+    right: 100px;
+    
+}
+.paragraph6{
+    
+    width: 85%;
+    height: 60pxpx;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    float: left;
+    background-color: white;
+    position: relative;
+    bottom: 140px;
+}
+.getstarted2{
+    width: 85%;
+    height: 45px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    float: left;
+    background-color: white;
+    position: relative;
+    bottom: 130px;
+}
+.custom-textbox .underline2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 62%;
+    height: 2px;
+    background-color: rgb(128, 122, 122);
+    transition: background-color 0.3s ease;
+}
+
+.custom-textbox:hover .underline2 {
+    background-color: black;
+}
+.paragraph7{
+    width: 100%;
+    height: 240px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 38px;
+    color: black;
+    font-weight: 600;
+    float: left;
+    margin-top: 141px;
+    margin-left: 100px;
+    position: relative;
+    letter-spacing: -2px;
+}
+.paragraph8{
+    width: 78%;
+    height: 60pxpx;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    float: left;
+    margin-left: 100px;
+    position: relative;
+    bottom: 100px;
+}
+.getstarted3{
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    float: left;
+    margin-left: 100px;
+    position: relative;
+    bottom: 100px;
+}
+.h1{
+    font-size: 34px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    position: absolute;
+    left: 65px;
+    top: 40px;
+}
+.content31text2{
+    background-color: white;
+    margin-left: 200px;
+    height: 47px;
+    width: 320px;
+    position: relative;
+    bottom: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content31text{
+    background-color: white;
+    height: 47px;
+    width: 285px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.content31text p {
+    position: absolute;
+    top: 100%; 
+    left: 0; 
+    margin-top: -15px; 
+}
+.arrow2{
+    height: 100%;
+    width: 25px;
+    margin-right: 0px;
+    cursor: text;
+    background-color: white;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow2-svg {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transition: right 0.3s ease;
+}
+
+.content-31:hover .arrow2-svg {
+    right: 5px;
+}
+.content-32:hover .arrow2-svg {
+    right: 5px;
+}
+.head{
+    width: 80%;
+    height: 170px;
+    background-color: black;
+    margin-left: 65px;
+    margin-top: 120px;
+    cursor: pointer;
+    float: left;
+}
+.a1 {
+    margin-left: 65px;
+    background-color: black;
+    height: 290px;
+    float: left;
+    width: 18%;
+}
+.button3{
+    width: 87%;
+    height: 50px;
+    margin-left: 65px;
+    margin-top: 60px;
+    background-color: black;
+    float: left;
+}
+.button4{
+    width: 25%;
+    height: 43px;
+    margin-left: 65px;
+    margin-top: 60px;
+    background-color: black;
+    float: left;
+    position: relative;
+}
+.footer{
+    width: 89%;
+    height: 43px;
+    margin-left: 65px;
+    margin-top: 43px;
+    background-color: black;
+    float: left;
+    position: relative;
+}
+.helpcenter{
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    
+}
+.headerh1{
+    font-weight: 100;
+    margin-top: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: text;
+}
+.headerh2{
+        font-size: 20px;
+        font-weight: 100;
+        margin-top: 0;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: text;
+}
+.a1 a:hover{
+    color: #817878;
+}
+.a2 {
+    color: white;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-bottom: 18px;
+}
+.links-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.button3 {
+    width: 87%;
+    height: 50px;
+    margin-left: 65px;
+    margin-top: 60px;
+    background-color: black;
+    float: left;
+    position: relative;
+}
+
+.link {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    border-radius: 10px;
+}
+.link:nth-child(1) {
+    left: 0;
+}
+.link:nth-child(1) img{
+    height: 30%;
+    width: 43%;
+    margin-top: 35%;
+    margin-left: 31%;
+
+}
+
+.link:nth-child(2) {
+    left: 110px;
+}
+.link:nth-child(2) img{
+    height: 200%;
+    width: 200%;
+    margin-top: -43%;
+    margin-left: -47%;
+}
+.link:nth-child(3) {
+    left: 220px;
+}
+.link:nth-child(3) img{
+    height: 60%;
+    width: 60%;
+    margin-top: 25%;
+    margin-left: 21%;
+}
+
+.link:nth-child(4) {
+    left: 330px;
+}
+.link:nth-child(4) img{
+    height: 40%;
+    width: 40%;
+    margin-top: 35%;
+    margin-left: 31%;
+}
+
+.link:nth-child(5) {
+    left: 440px;
+}
+.link:nth-child(5) img{
+    height: 74%;
+    width: 74%;
+    margin-top: 17%;
+    margin-left: 12%;
+}
+
+.button-right {
+    width: 80px;
+    height: 60%;
+    background-color: black;
+    position: absolute;
+    top: 12px;
+    right: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button-right:first-child {
+    top: 0;
+}
+
+.button-right:last-child {
+    right: 95px;
+}
+.link:hover{
+    background-color: #3f3a3a;
+}
+.button-right:hover{
+    background-color: #3f3a3a;
+}
+.aleft{
+    width: 108px;
+    height: 92%;
+    background-color: black;
+    border-radius: 8px;
+    position: absolute;
+    border: 2px solid white;
+}
+.aright{
+    width: 118px;
+    height: 92%;
+    background-color: black;
+    border-radius: 8px;
+    position: absolute;
+    margin-left: 140px;
+    border: 2px solid white;
+}
+.aleft img{
+    height: 100%;
+    width: 100%;
+}
+.aright img{
+    height: 100%;
+    width: 100%;
+}
+.buttonenglish{
+    width: 30px;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0;
+}
+.buttonkochi{
+    width: 50px;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0;
+    margin-left: 30px;
+    color: white;
+}
+
+.buttonenglish img{
+    height: 70%;
+    width: 100%;
+}
+.footertextdiv{
+    height: 100%;
+    width: 70%;
+    background-color: black;
+    float: left;
+}
+.footertext{
+    color: white;
+    font-size: 13px;
+    float: left;
+}
+.footerbuttondiv{
+    height: 100%;
+    background-color: black;
+    width: 22%;
+    margin-left: 5%;
+    float: left;
+}
+.footerbutton{
+    width: 80px;
+    height: 60%;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    float: left;
+    color: white;
+    border-color: transparent;
+}
+.footerbutton:hover{
+    color: #3f3a3a;
+}
